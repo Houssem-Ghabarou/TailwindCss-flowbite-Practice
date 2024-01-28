@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@layer components {
+    .text-style {
+        @apply text-base text-black bg-gray-400 rounded-lg px-2 cursor-pointer hover:bg-[#FFD700];
+    }
+
+    .image-style {
+        @apply w-[100%] h-[100%] rounded-md;
+    }
+}
